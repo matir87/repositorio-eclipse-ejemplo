@@ -1,0 +1,40 @@
+Listado de Comandos:            ID  Tipo    Etiqueta
+________________________________________________________________________________________________________
+
+Cuenta del encoder:             1   INT     label_119
+Estado de los sensores Hall:    2   USHORT  label_116
+Corriente Fase A:               3   SHORT   label_113
+Corriente Fase B:               4   SHORT   label_115
+Corriente Fase C:               5   SHORT   label_106
+Velocidad actual sin filtro:    6   INT     label_118
+Velocidad actual con filtro:    7   INT     label_133
+Velocidad Objetivo:             8   INT     label_132
+Posición Actual:                9   INT     label_129
+Posición Objetivo:              10  INT     label_130
+
+//Comandos de Configuración Límite.....................................................................
+Limites - Corriente Maxima:     12  USHORT  label_33
+T admi. pico de corriente:      13  USHORT  label_34
+Lim. C. en func. continuo:      14  USHORT  label_35
+Resolucion Resolver:            15  USHORT  label_36
+Resolucion Encoder:             16  USHORT  label_105
+Limite de sobre voltaje:        17  SHORT   label_85
+Limite de bajo voltaje:         18  SHORT   label_97
+Temperatura de desconexión:     19  INT     label_96
+Temperatura de Reconexión:      20  INT     label_91
+Config. monitor de temp.:       21  USHORT  label_98
+Exceso Velocidad:               22  UINT    label_47
+Vel Cero:                       23  UINT    label_38
+Vel maxima:                     24  UINT    label_46
+Máx error de seg de vel.:       25  INT     label_50
+Límite de velocidad positivo:   26  UINT    label_53
+Límite de velocidad negativa:   27  UINT    label_54
+Redefine posición actual:       28  INT     label_75
+Valor de posición en origen:    29  INT     label_70
+limite de posición:             30  INT     label_66
+limite de posición mínima:      31  INT     label_69
+Ventana posición en origen:     32  INT     label_57
+Ventana llegada a la pos ind.:  33  UINT    label_74
+Error máximo tol. de seg.:      34  UINT    label_84
+Posición máxima objetivo:       35  INT     label_83
+Posición mínima objetivo:       36  INT     label_80
